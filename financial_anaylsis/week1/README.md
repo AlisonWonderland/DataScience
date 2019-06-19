@@ -14,3 +14,7 @@ Will be using these files as reference for later work
 In the first example, a new column will be created with the sum of the 50 previous prices. Meaning that if a row doesn't have 50 rows before it then the sum will show up as NaN
 * dropna() Remove rows that are missing a cell of data.
 * cumsum() To sum up all the values in a column.
+
+
+## Simple strategy explanation
+This is something I have no knowledge of, I don't understand how some people came to this conclusion. But the way it works is, if the moving average of the previous 10 days is greater than the moving average of the previous 50 days you buy/hold the stock until it isn't true. Its a way of earning profit from stocks, but its not the best.
